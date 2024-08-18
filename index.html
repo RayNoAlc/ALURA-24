@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Planejamento de Metas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="conteudo-principal">
+        <h2 class="titulo-principal">Planejamento de Metas</h2>
+        <div class="conteudo">
+            <div class="botoes">
+                <button class="botao ativo" data-target="meta1">Meta 1</button>
+                <button class="botao" data-target="meta2">Meta 2</button>
+                <button class="botao" data-target="meta3">Meta 3</button>
+                <button class="botao" data-target="meta4">Meta 4</button>
+            </div>
+            <div class="abas-textos">
+                <div id="meta1" class="aba-conteudo ativo">
+                    <h3 class="aba-conteudo-titulo-principal">Descrição da Meta 1</h3>
+                    <h4 class="aba-conteudo-titulo-secundario">Tempo restante:</h4>
+                    <div class="contador">
+                        <div class="contador-digito">
+                            <p class="contador-digito-numero" id="dias1"></p>
+                            <p class="contador-digito-texto">dias</p>
+                        </div>
+                        <div class="contador-digito">
+                            <p class="contador-digito-numero" id="horas1"></p>
+                            <p class="contador-digito-texto">horas</p>
+                        </div>
+                        <div class="contador-digito">
+                            <p class="contador-digito-numero" id="min1"></p>
+                            <p class="contador-digito-texto">min</p>
+                        </div>
+                        <div class="contador-digito">
+                            <p class="contador-digito-numero" id="seg1"></p>
+                            <p class="contador-digito-texto">seg</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Adicione mais metas conforme necessário -->
+            </div>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
